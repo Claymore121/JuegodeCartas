@@ -1,0 +1,21 @@
+:root {
+  --bg: #fafafa;
+  --font-display: "Archivo Narrow", sans-serif;
+  --hotpink: #black;
+  --orange: #f27121;
+  --gradient: linear-gradient(35deg, var(--orange), var(--hotpink));
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: 'Minecraft', sans-serif;
+}
+h1,p,h2,h3{
+  font-family: 'Minecraft', sans-serif;
+}
